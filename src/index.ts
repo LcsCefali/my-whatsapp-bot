@@ -9,7 +9,7 @@ client.on("message", async (message: any) => {
   const userMessage = message.body;
   const validationHi = /oi/i;
   const validationOw = /ow/i;
-  const validationOu = /ou/i;
+  // const validationOu = /ou/i;
   const validationDay = /bom dia/i;
   const validationAfternoon = /boa tarde/i;
   const validationMan = /man/i;
@@ -40,11 +40,13 @@ client.on("message", async (message: any) => {
     message.reply(
       `${defaultMessage}Eai mano, já respondo!`
     );
-  } else if(userMessage.match(validationOu)) {
-    message.reply(
-      `${defaultMessage}Solta o verbo.`
-    );
-  } else if(userMessage.match(validationOw)) {
+  } 
+  // else if(userMessage.match(validationOu)) {
+  //   message.reply(
+  //     `${defaultMessage}Solta o verbo.`
+  //   );
+  // } 
+  else if(userMessage.match(validationOw)) {
     message.reply(
       `${defaultMessage}Solta o verbo.`
     );
