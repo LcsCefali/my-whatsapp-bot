@@ -21,13 +21,6 @@ Esta aplicação é um Client que simula a conexão com WhatsApp Web através do
 
 ### ▶ Instação:
 
-- Variável ambiente: `.env.example`:
-
-```java
-TURNO_API=private
-PRINT_URL=private
-```
-
 - Instalar TypeScript Global `npm i -g typescript`
 - Instalar dependências: `yarn install` ou `npm install`
 - Compilar TypeScript: `yarn compile` ou `npm run compile`
@@ -42,39 +35,7 @@ Após configuração, necessário atrelar aplicação ao seu WhatsApp, para isso
 ---
 
 ### 🔰 Comandos
-
-- !cotacao
-- !company
-- !turno
-- !pausa
-- !encerrar
-- !important
-
-Digite: `!cotacao` e o Bot consumirá a <a href="https://docs.awesomeapi.com.br/">API</a> de cotação das seguintes moedas: (BTC, DOLAR, EURO)
-
-<img width="600" height="100%" src="https://i.imgur.com/qrqWQ6N.png" alt="Cotação da moeda">
-
----
-
-Digite: `!turno` e o Bot consumirá uma API própria, onde colhe recursos internos da empresa 76Telecom.
-
-<img width="600" height="100%" src="https://i.imgur.com/XtZA3ha.png" alt="Passagem de turno">
-
-Comando **!turno** é de uso exclusivo, não funcionará para uso público, isso foi apenas uma demonstração.
-
----
-
-Digite: `!encerrar` e o Bot encerra o seu expediente de acordo com seu horário.
-
-<img width="600" height="100%" src="https://i.imgur.com/EL9l6UN.png" alt="Encerrar jornada">
-
----
-
-Digite: `!pausa` e o Bot enviará uma mensagem com o tempo que você deverá retornar.
-
-<img width="600" height="100%" src="https://i.imgur.com/0xIpYYw.png" alt="Pausa jornada">
-
----
+#### Sem comandos por enquanto...
 
 ### Isenção de Responsabilidade
 
@@ -84,13 +45,4 @@ Este projeto não é afiliado, associado, autorizado, endossado por, ou de qualq
 
 ### Agradecimentos e Créditos
 
-- [@pedroslopez](https://github.com/pedroslopez)
-- [@raniellyferreira](https://github.com/raniellyferreira)
-- [@76Telecom](https://76telecom.com.br/)
-
----
-
-### Contato
-
-- [LinkedIn](https://www.linkedin.com/in/caioagiani/)
-- caio.agiani14@gmail.com
+- [@caioagiani](https://github.com/caioagiani/whatsapp-bot)
